@@ -7,22 +7,22 @@ from utils_bot import *
 from Adarsh import StartTime
 
 
-START_TEXT = """ Your Telegram DC Is : `{}`  """
+START_TEXT = """ 🔍 𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑫𝑪 𝑰𝒔 : `{}`  """
 
 
 @StreamBot.on_message(filters.regex("maintainers😎"))
 async def maintainers(b,m):
     try:
-       await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
+       await b.send_message(chat_id=m.chat.id,text="🌟𝑯𝒆𝒍𝒍𝒐",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [Adarsh Goel](https://github.com/adarsh-goel)",
+                    text="💚𝑰 𝑨𝒎 𝑴𝒂𝒊𝒏𝒕𝒂𝒊𝒏𝒆𝒅 𝑩𝒚 [𝑽𝒌 𝑩𝒐𝒕𝒛](https://telegram.dog/Vk_Botz)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://github.com/adarsh-goel")
+                                InlineKeyboardButton("🖤𝑶𝒘𝒏𝒆𝒓", url=f"https://telegram.dog/Abt_Mine")
                             ]
                         ]
                     ),
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://GITHUB.COM/adarsh-goel")
+                                InlineKeyboardButton("FOLLOW US", url=f"https://telegram.dog/Vk_Botz")
                             ]
                         ]
                     ),
